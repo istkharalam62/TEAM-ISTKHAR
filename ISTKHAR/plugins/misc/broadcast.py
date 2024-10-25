@@ -160,7 +160,7 @@ async def auto_clean():
                             adminlist[chat_id].append(user.user.id)
                     authusers = await get_authuser_names(chat_id)
                     for user in authusers:
-                        user_id = await thunder _to_int(user)
+                        user_id = await thunder_to_int(user)
                         adminlist[chat_id].append(user_id)
         except:
             continue
