@@ -14,7 +14,7 @@ from ISTKHAR.utils.database import (
     get_served_users,
 )
 from ISTKHAR.utils.decorators.language import language
-from ISTKHAR.utils.formatters import thunder _to_int
+from ISTKHAR.utils.formatters import thunder_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
