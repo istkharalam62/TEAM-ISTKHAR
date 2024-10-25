@@ -16,7 +16,7 @@ from ISTKHAR.utils.database import (
 from config import SUPPORT_CHAT, adminlist, confirmer
 from strings import get_string
 
-from ..formatters import int_to_thunder 
+from ..formatters import int_to_alpha 
 
 
 def AdminRightsCheck(mystic):
