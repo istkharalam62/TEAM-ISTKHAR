@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from ISTKHAR import app
-from ISTKHAR.utils import extract_user, int_to_thunder 
+from ISTKHAR.utils import extract_user, int_to_alpha 
 from ISTKHAR.utils.database import (
     delete_authuser,
     get_authuser,
